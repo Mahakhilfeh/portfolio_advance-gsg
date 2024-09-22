@@ -1,0 +1,249 @@
+* {
+    /* background-color: whitesmoke; */
+    font-family:sans-serif;
+}
+body{
+    background-color: whitesmoke;
+
+}
+.head {
+    background-color: #413f3f;
+    width: 77%;
+    height: 146px;
+    left: 10%;
+    position: relative;
+    border-radius: 6px;
+    top: 20px;
+}
+.head h1 {
+    position: absolute;
+    color: whitesmoke;
+    left: 34%;
+}
+
+.head p{
+    position: absolute;
+    top: 36%;
+    left: 34%;
+    color: #e3dfdf;
+}
+
+.head nav {
+    position: absolute;
+    top: 60%;
+    left: 34%;
+}
+
+.head nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.head nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.head nav ul li a:hover {
+    color:yellow;
+}
+
+.about {
+    background-color: white;
+    width: 77%;
+    position: relative;
+    left: 10%;
+    border-radius: 6px;
+    top: 75px;
+    height: 396px;
+}
+
+.about h2 {
+    padding-left: 26px;
+    padding-top: 40px;
+
+}
+
+.about p {
+    padding: 20px;
+    padding-left: 26px;
+}
+
+.about img {
+    position: absolute;
+    width: 146px;
+    height: 146px;
+    left: 54%;
+    border-radius: 98px;
+    top: 208px;
+}
+
+.about img:hover {
+    height: 150px;
+}
+
+.about .task {
+    position: absolute;
+    background-color: #d014d0;
+    width: 294px;
+    height: 255px;
+    left: 7%;
+    border-radius: 6px;
+}
+
+.about .task h2 , .skills h2 , .project h2 ,.project1 h3 ,.project2 h3 , .project3 h3 , .contact h2  , label {
+    padding: 13px;
+}
+
+.about .task p ,.project .project1 p ,.project2 p , .project3 p , .contact p {
+padding: 14px;
+}
+
+.skills {
+    background-color: white;
+    width: 77%;
+    position: relative;
+    left: 10%;
+    border-radius: 6px;
+    top: 123px;
+    height: 220px;
+    background-image: url(images/pic1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skills .background_skill{
+    background-color: white;
+    width: 96%;
+    position: absolute;
+    left: 2%;
+    border-radius: 6px;
+    top: 77px;
+    height: 99px;
+    opacity: .5;
+}
+
+.skills .background_skill ul li {
+    position: relative;
+    display: inline-block;
+    margin: 1px;
+    top: 8px;
+    background-color: #188218;
+    width: 147px;
+    height: 35px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 22px;
+    left: -20px;
+    color:white;
+}
+
+.skills .background_skill ul li:hover {
+    height: 40px;
+    color: white; 
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.project {
+    background-color: white;
+    width: 77%;
+    position: relative;
+    left: 10%;
+    border-radius: 6px;
+    top: 175px;
+    height: 900px;
+}
+
+.project .project1  {
+
+    position: absolute;
+    background-color: orange;
+    width: 294px;
+    height: 255px;
+    left: 7%;
+    border-radius: 6px;
+}
+.project .project2 {
+    position: absolute;
+    background-color: #4ee0c8;
+    width: 294px;
+    height: 255px;
+    left: 7%;
+    border-radius: 6px;
+    top: 352px;
+
+}
+
+.project .project3 {
+    position: absolute;
+    background-color: #87aba5;
+    width: 90%;
+    height: 255px;
+    left: 7%;
+    border-radius: 6px;
+    top: 629px;
+
+}
+
+.contact {
+
+    background-color: #f2f2f2;
+    width: 77%;
+    position: relative;
+    left: 10%;
+    border-radius: 6px;
+    top: 216px;
+    height: 589px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: 13px;
+  }
+
+  input:focus, textarea:focus {
+    border-color: #cccccc;
+    outline: none;
+    box-shadow: 0 0 5px rgb(204 204 204);
+  }
+
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: green;
+    padding: 14px 20px;
+    border: 2px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 8%;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049; 
+    color: white;
+  }
+
+  .footer {
+
+    width: 100%;
+    position: relative;
+    border-radius: 6px;
+    top: 270px;
+    height: 54px;
+    background-color: #413f3f;
+
+  }
+
+.footer p {
+    position: absolute;
+    left: 41%;
+}
